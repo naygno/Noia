@@ -6,7 +6,7 @@
   Zettlr [<em>ˈset·lər</em>]
 </h1>
 
-<p align="center"><strong>Your One-Stop Publication Workbench</strong>.</p>
+<p align="center"><strong>Sua Estação de Trabalho de Publicações Tudo-em-Um</strong>.</p>
 
 <p align="center">
   <a href="https://doi.org/10.5281/zenodo.2580173">
@@ -24,65 +24,65 @@
 </p>
 
 <p align="center">
-  <a href="https://www.zettlr.com/" target="_blank">Homepage</a> |
+  <a href="https://www.zettlr.com/" target="_blank">Página Inicial</a> |
   <a href="https://www.zettlr.com/download">Download</a> |
-  <a href="https://docs.zettlr.com/" target="_blank">Documentation</a> |
-  <a href="https://forum.zettlr.com/" target="_blank">Community Forum</a> |
+  <a href="https://docs.zettlr.com/" target="_blank">Documentação</a> |
+  <a href="https://forum.zettlr.com/" target="_blank">Fórum da Comunidade</a> |
   <a href="https://go.zettlr.com/discord" target="_blank">Discord</a> |
-  <a href="#contributing">Contributing</a> |
-  <a href="https://zettlr.com/supporters" target="_blank">Support Us</a> |
+  <a href="#contribuindo">Contribuindo</a> |
+  <a href="https://zettlr.com/supporters" target="_blank">Apoie-nos</a> |
   <a rel="me" href="https://fosstodon.org/@zettlr" target="_blank">Mastodon</a>
 </p>
 
 ![screenshot](/resources/screenshots/zettlr_view.png)
 
-Zettlr brings simplicity back to your texts. Open-minded writing that adapts to
-your style. Fast information retrieval that finds what matters to you. Versatile
-exporting that enables you to adapt to whatever publication pipeline your
-employer or school uses.
+O Zettlr traz simplicidade de volta aos seus textos. Escrita aberta que se adapta
+ao seu estilo. Recuperação rápida de informações que encontra o que importa para você.
+Exportação versátil que permite adaptar-se a qualquer pipeline de publicação que seu
+empregador ou escola use.
 
-Focus on what matters to you.
+Foque no que importa para você.
 
-**Publish, not perish.**
+**Publique, não pereça.**
 
-> [Learn more on our website](https://zettlr.com/).
+> [Saiba mais em nosso site](https://zettlr.com/).
 
 ***
 
-**Table of Contents**
+**Sumário**
 
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Building from Source](#building-from-source)
-- [Contributing](#contributing)
-  - [Getting Started](#getting-started-1)
-  - [Tech Stack](#tech-stack)
-  - [Debugging](#debugging)
-  - [Architecture Overview](#architecture-overview)
-  - [Development Commands](#development-commands)
-  - [Build Flags](#build-flags)
-  - [Directory Structure](#directory-structure)
-- [Command-Line Switches](#command-line-switches)
-- [VSCode Extension Recommendations](#vscode-extension-recommendations)
-- [License](#license)
+- [Recursos](#recursos)
+- [Começando](#começando)
+- [Compilando a Partir do Código Fonte](#compilando-a-partir-do-código-fonte)
+- [Contribuindo](#contribuindo)
+  - [Começando](#começando-1)
+  - [Pilha Tecnológica](#pilha-tecnológica)
+  - [Depuração](#depuração)
+  - [Visão Geral da Arquitetura](#visão-geral-da-arquitetura)
+  - [Comandos de Desenvolvimento](#comandos-de-desenvolvimento)
+  - [Flags de Compilação](#flags-de-compilação)
+  - [Estrutura de Diretórios](#estrutura-de-diretórios)
+- [Parâmetros de Linha de Comando](#parâmetros-de-linha-de-comando)
+- [Extensões Recomendadas para VSCode](#extensões-recomendadas-para-vscode)
+- [Licença](#licença)
 
-## Features
+## Recursos
 
-- Your Notes are your notes: Zettlr is **privacy-first**
-- **Citations** made easy: Tight and ever-growing integration with your
-  favorite reference manager (Zotero, JabRef, and many others)
-- Available in over a **dozen languages**
-- Draft your publications in a professional environment, with
-  **LaTeX and Word template support**
-- Simple and beautiful exports with [Pandoc](https://pandoc.org/),
-  [LaTeX](https://www.latex-project.org/), and [Textbundle](http://textbundle.org/)
-- **Snippets** allow you to automate insertion of boilerplate code
-- Themes, dark modes, and full flexibility with **custom CSS**
-- **Code highlighting** for many languages
-- Support for state of the art knowledge management techniques (**Zettelkasten**)
-- A powerful **full text search** that helps you find anything, anywhere
+- Suas anotações são suas anotações: Zettlr é **privacidade em primeiro lugar**
+- **Citações** feitas com facilidade: Integração estreita e em constante crescimento com seu
+  gerenciador de referências favorito (Zotero, JabRef e muitos outros)
+- Disponível em mais de **uma dúzia de idiomas**
+- Elabore suas publicações em um ambiente profissional, com
+  **suporte a modelos LaTeX e Word**
+- Exportações simples e bonitas com [Pandoc](https://pandoc.org/),
+  [LaTeX](https://www.latex-project.org/) e [Textbundle](http://textbundle.org/)
+- **Snippets** permitem automatizar a inserção de código repetitivo
+- Temas, modos escuros e flexibilidade total com **CSS personalizado**
+- **Destaque de sintaxe** para muitos idiomas
+- Suporte para técnicas modernas de gestão do conhecimento (**Zettelkasten**)
+- Uma poderosa **pesquisa de texto completo** que ajuda você a encontrar qualquer coisa, em qualquer lugar
 
-… and the best is: **Zettlr is [Free and Open Source Software (FOSS)](https://en.wikipedia.org/wiki/Free_and_open-source_software)!**
+… e o melhor é: **Zettlr é [Software Livre e de Código Aberto (FOSS)](https://en.wikipedia.org/wiki/Free_and_open-source_software)!**
 
 ## Getting Started
 
