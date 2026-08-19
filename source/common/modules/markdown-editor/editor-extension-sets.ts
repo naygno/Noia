@@ -65,7 +65,8 @@ import {
   themeBielefeldLight, themeBielefeldDark,
   themeBordeauxLight, themeBordeauxDark,
   themeFrankfurtLight, themeFrankfurtDark,
-  themeKarlMarxStadtLight, themeKarlMarxStadtDark
+  themeKarlMarxStadtLight, themeKarlMarxStadtDark,
+  themeCyberpunkBrazilLight, themeCyberpunkBrazilDark
 } from './theme'
 import { highlightWhitespace } from './plugins/highlight-whitespace'
 import { showLineNumbers } from './plugins/line-numbers'
@@ -123,6 +124,10 @@ export function getMainEditorThemes (): Record<EditorConfiguration['theme'], { l
     'karl-marx-stadt': {
       lightThemes: [ mainThemes, themeKarlMarxStadtLight ],
       darkThemes: [ mainThemes, themeKarlMarxStadtDark ]
+    },
+    'cyberpunk-brazil': { 
+      lightThemes: [ mainThemes, themeCyberpunkBrazilLight ],
+      darkThemes: [ mainThemes, themeCyberpunkBrazilDark ]
     }
   }
 }

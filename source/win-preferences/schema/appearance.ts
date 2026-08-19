@@ -120,6 +120,13 @@ export function getAppearanceFields (config: ConfigOptions): PreferencesFieldset
               name: 'Bordeaux',
               fontFamily: 'Inconsolata',
               description: 'Design made in France: Enjoy writing with this theme\'s unagitated colors and beautiful monospaced font.'
+            },
+            'cyberpunk-brazil': {
+              textColor: '#00ff66',
+              backgroundColor: '#080c10',
+              name: 'Cyberpunk Brazil',
+              fontFamily: 'JetBrains Mono',
+              description: 'Cyberpunk palette with Brazilian neon accents and glassmorphic surfaces.'
             }
           }
         }

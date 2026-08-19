@@ -22,6 +22,7 @@ export { themeBielefeldLight, themeBielefeldDark } from './themes/bielefeld'
 export { themeBordeauxLight, themeBordeauxDark } from './themes/bordeaux'
 export { themeFrankfurtLight, themeFrankfurtDark } from './themes/frankfurt'
 export { themeKarlMarxStadtLight, themeKarlMarxStadtDark } from './themes/karl-marx-stadt'
+export { themeCyberpunkBrazilLight, themeCyberpunkBrazilDark } from './themes/cyberpunk-brazil'
 
 export const mainThemes = [
   editorTheme,
