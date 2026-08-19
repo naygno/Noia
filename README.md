@@ -1,6 +1,6 @@
 <div align="center">
   <img src="resources/icons/png/256x256.png" alt="Noia Logo" width="120" height="120">
-  <h1>Ν O I A</h1>
+  <h1>Νoia</h1>
   <p><b>A Estação de Trabalho Científica e Minimalista.</b></p>
   <p>
     <a href="https://www.gnu.org/licenses/gpl-3.0">
