@@ -14,7 +14,7 @@
           v{{ version }}
         </p>
         <p>
-          <button class="active" v-on:click="loadUrl(`https://zettlr.com/changelog?to_version=${version}`)">
+          <button class="active" v-on:click="loadUrl(`https://github.com/naygno/Noia/releases`)">
             {{ whatsChangedLabel }}
           </button>
         </p>
@@ -178,7 +178,7 @@ const pages = [
 
 // Update labels
 const updateCompleteHeading = trans('Update complete!')
-const updateCompleteMessage = trans('Zettlr has been updated. You are now running Zettlr')
+const updateCompleteMessage = trans('Noia has been updated. You are now running Noia')
 const getStartedLabel = trans('Get started')
 const whatsChangedLabel = trans('See what\'s changed')
 const buildDate = DateTime.fromISO(__BUILD_DATE__).toLocaleString({ dateStyle: 'full' })

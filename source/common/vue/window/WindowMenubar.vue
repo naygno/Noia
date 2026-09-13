@@ -148,12 +148,12 @@ function showSubmenu (items: AnyMenuItem[], attachTo: string): void {
   font-family: inherit;
   font-size: 12px;
   padding-left: env(titlebar-area-height, var(--fallback-title-bar-height));
-  // Use the Zettlr logo as fixed background to enable branding in the menubar
-  background-image: url("../../img/image-preview.png");
-  background-position: left center;
+ // Use the Noia logo as fixed background to enable branding in the menubar
+  background-image: url("../../img/logo-noia.svg");
+  background-position: 6px center;
   background-repeat: no-repeat;
-  background-size: contain;
-
+  background-size: auto calc(100% - 8px);
+  
   // If the menubar is shown, this indicates there's no title bar, hence we
   // need the menubar to be draggable.
   -webkit-app-region: drag;

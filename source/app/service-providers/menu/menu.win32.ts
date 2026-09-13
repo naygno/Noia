@@ -624,7 +624,7 @@ export default function getMenu (
       submenu: [
         {
           id: 'menu.about',
-          label: trans('About Zettlr'),
+          label: trans('About Noia'),
           click: function (_menuitem, _focusedWindow) {
             windows.showAboutWindow()
           }
@@ -635,9 +635,9 @@ export default function getMenu (
         },
         {
           id: 'menu.donate',
-          label: trans('Support Zettlr ↗︎'),
+          label: trans('Support Noia ↗︎'),
           click: function (_menuitem, _focusedWindow) {
-            const target = 'https://patreon.com/zettlr'
+            const target = 'https://github.com/naygno/Noia'
             shell.openExternal(target).catch(e => {
               logger.error(`[Menu Provider] Cannot open target: ${target}`, e.message)
             })
@@ -647,18 +647,7 @@ export default function getMenu (
           id: 'menu.learn_more',
           label: trans('Visit website ↗︎'),
           click: function (_menuitem, _focusedWindow) {
-            const target = 'https://www.zettlr.com/'
-            shell.openExternal(target).catch(e => {
-              logger.error(`[Menu Provider] Cannot open target: ${target}`, e.message)
-            })
-          }
-        },
-        {
-          id: 'menu.docs',
-          label: trans('Open user manual ↗︎'),
-          accelerator: 'F1',
-          click: function (_menuitem, _focusedWindow) {
-            const target = 'https://docs.zettlr.com/'
+            const target = 'https://github.com/naygno/Noia'
             shell.openExternal(target).catch(e => {
               logger.error(`[Menu Provider] Cannot open target: ${target}`, e.message)
             })

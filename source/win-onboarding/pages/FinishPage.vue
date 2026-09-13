@@ -10,13 +10,13 @@
   </p>
 
   <div id="button-group">
-    <button v-on:click="loadUrl('https://go.zettlr.com/discord')">
+    <button v-on:click="loadUrl('https://go.Noia.com/discord')">
       {{ discordLabel }}
     </button>
-    <button v-on:click="loadUrl('https://forum.zettlr.com/')">
+    <button v-on:click="loadUrl('https://forum.Noia.com/')">
       {{ forumLabel }}
     </button>
-    <button v-on:click="loadUrl('https://github.com/Zettlr/Zettlr')">
+    <button v-on:click="loadUrl('https://github.com/Noia/Noia')">
       {{ sourceCodeLabel }}
     </button>
   </div>
@@ -29,8 +29,8 @@ import { trans } from 'source/common/i18n-renderer'
 import SupportLogos from '../SupportLogos.vue'
 
 const pageHeading = trans('You\'re All Set!')
-const outroStart = trans('We wish you a great writing experience! Remember to take a look at the preferences to tweak Zettlr even more.')
-const helpInfo = trans('If anything comes up, and you need help, encounter a bug, or have an idea for a new feature, please get in touch with us. Zettlr is maintained by a global community of excellent volunteers who will help you out.')
+const outroStart = trans('We wish you a great writing experience! Remember to take a look at the preferences to tweak Noia even more.')
+const helpInfo = trans('If anything comes up, and you need help, encounter a bug, or have an idea for a new feature, please get in touch with us. Noia is maintained by a global community of excellent volunteers who will help you out.')
 
 const discordLabel = trans('Join our Discord Server')
 const forumLabel = trans('Join our Community Forum')

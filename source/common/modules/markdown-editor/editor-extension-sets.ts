@@ -16,6 +16,7 @@
  * END HEADER
  */
 
+import { renderCallouts } from './renderers/render-callouts' // Novo plugin seg 24/08/2026
 import { closeBrackets } from '@codemirror/autocomplete'
 import { type Update } from '@codemirror/collab'
 import { history } from '@codemirror/commands'
@@ -319,6 +320,7 @@ export function getMarkdownExtensions (options: CoreExtensionOptions): Extension
     // ... which can then be styled with a highlighter
     markdownSyntaxHighlighter(),
     renderers(options.initialConfig),
+    renderCallouts, // Registar o plingin do novo tema 24/082026
     showLineNumbers(options.initialConfig.showMarkdownLineNumbers),
     mdLinterExtensions,
     headingGutter,

@@ -119,7 +119,7 @@ export default class TrayProvider extends ProviderContract {
   }
 
   /**
-   * Adds the Zettlr tray to the system notification area.
+   * Adds the Noia tray to the system notification area.
    * @private
    * @memberof TrayProvider
    */
@@ -149,8 +149,8 @@ export default class TrayProvider extends ProviderContract {
       // depending on the color of the menu bar.
       iconPath = path.join(__dirname, 'assets/icons/macOS-menubar/tray-Template.png')
     } else if (process.platform === 'win32') {
-      // On Windows, we're using the ICO-file.
-      iconPath = path.join(__dirname, 'assets/icons/icon.ico')
+      // No Windows, usa o PNG 32x32 do Noia para exibir o 'N' na bandeja
+      iconPath = path.join(__dirname, 'assets/icons/png/32x32.png')
     }
 
     // Provide the app's UUID so that, on Windows and macOS, the tray icon will
@@ -163,7 +163,7 @@ export default class TrayProvider extends ProviderContract {
 
     const menu: MenuItemConstructorOptions[] = [
       {
-        label: trans('Show Zettlr'),
+        label: trans('Show Noia'),
         click: () => this._windows.activateFromTray(),
         type: 'normal'
       },
@@ -176,12 +176,12 @@ export default class TrayProvider extends ProviderContract {
     ]
 
     const contextMenu = Menu.buildFromTemplate(menu)
-    this._tray.setToolTip(trans('Zettlr'))
+    this._tray.setToolTip(trans('Noia'))
     this._tray.setContextMenu(contextMenu)
   }
 
   /**
-   * Removes the Zettlr tray from the system notification area.
+   * Removes the Noia tray from the system notification area.
    * @private
    * @memberof TrayProvider
    */

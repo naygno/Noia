@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Hendrik Erz <info@zettlr.com>
-# This file is distributed under the same license as the Zettlr package.
+# Copyright (C) YEAR Hendrik Erz <info@Noia.com>
+# This file is distributed under the same license as the Noia package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Zettlr 2.3.0\n"
-"Report-Msgid-Bugs-To: https://github.com/Zettlr/Zettlr/issues\n"
+"Project-Id-Version: Noia 2.3.0\n"
+"Report-Msgid-Bugs-To: https://github.com/Noia/Noia/issues\n"
 "POT-Creation-Date: 2026-08-04 03:27+0000\n"
 "PO-Revision-Date: 2026-05-19 16:22-0300\n"
 "Last-Translator: Felipe Rocha\n"
@@ -1248,9 +1248,9 @@ msgstr "Edite as configurações padrão para importações ou exportações aqu
 
 #: source/tmp/win-assets/CustomCSS.vue.ts:24
 msgid ""
-"Here you can override the styles of Zettlr to customise it even further."
+"Here you can override the styles of Noia to customise it even further."
 msgstr ""
-"Aqui você pode substituir os estilos do Zettlr para personalizá-lo ainda "
+"Aqui você pode substituir os estilos do Noia para personalizá-lo ainda "
 "mais."
 
 #: source/tmp/win-assets/CustomCSS.vue.ts:25
@@ -2199,10 +2199,10 @@ msgstr "Sua versão"
 
 #: source/tmp/win-update/App.vue.ts:35
 msgid ""
-"There is a new version of Zettlr available to download. Please read the "
+"There is a new version of Noia available to download. Please read the "
 "changelog below."
 msgstr ""
-"Existe uma nova versão do Zettlr disponível para download. Por favor, leia o "
+"Existe uma nova versão do Noia disponível para download. Por favor, leia o "
 "changelog abaixo."
 
 #: source/tmp/win-update/App.vue.ts:36
@@ -2242,8 +2242,8 @@ msgid "Update complete!"
 msgstr "Atualização concluída!"
 
 #: source/tmp/win-onboarding/App.vue.ts:50
-msgid "Zettlr has been updated. You are now running Zettlr"
-msgstr "O Zettlr foi atualizado. Agora você está executando o Zettlr"
+msgid "Noia has been updated. You are now running Noia"
+msgstr "O Noia foi atualizado. Agora você está executando o Noia"
 
 #: source/tmp/win-onboarding/App.vue.ts:51
 msgid "Get started"
@@ -2251,7 +2251,7 @@ msgstr "Comece agora"
 
 #: source/tmp/win-onboarding/App.vue.ts:52
 msgid "See what's changed"
-msgstr "Veja oque mudou"
+msgstr "Veja o que mudou"
 
 #: source/tmp/win-onboarding/App.vue.ts:54
 #, javascript-format
@@ -2285,8 +2285,8 @@ msgid "Finish"
 msgstr "Terminar"
 
 #: source/tmp/win-onboarding/SupportLogos.vue.ts:4
-msgid "Support the development of Zettlr"
-msgstr "Apoie o desenvolvimento de Zettlr"
+msgid "Support the development of Noia"
+msgstr "Apoie o desenvolvimento de Noia"
 
 #: source/tmp/win-onboarding/pages/CitingPage.vue.ts:7
 #: source/tmp/win-preferences/App.vue.ts:174
@@ -2297,10 +2297,10 @@ msgstr "Citações"
 #: source/tmp/win-onboarding/pages/CitingPage.vue.ts:8
 msgid ""
 "If you already have a library of references, you can select it here to make "
-"all your stored reference items available to Zettlr."
+"all your stored reference items available to Noia."
 msgstr ""
 "Se você já possui uma biblioteca de referências, você pode selecioná-la aqui "
-"para tornar todos os seus itens armazenados disponíveis no Zettlr."
+"para tornar todos os seus itens armazenados disponíveis no Noia."
 
 #: source/tmp/win-onboarding/pages/CitingPage.vue.ts:9
 msgid "Learn how to export your Zotero library"
@@ -2309,10 +2309,10 @@ msgstr "Aprenda a exportar sua biblioteca Zotero"
 #: source/tmp/win-onboarding/pages/CitingPage.vue.ts:10
 msgid ""
 "Different academic fields have different citation styles. Here you choose "
-"which one Zettlr uses when you autocomplete citations."
+"which one Noia uses when you autocomplete citations."
 msgstr ""
 "Diferentes campos acadêmicos tem diferentes formas de citações. Aqui você "
-"escolhe qual o Zettlr utiliza ao autocompletar citações."
+"escolhe qual o Noia utiliza ao autocompletar citações."
 
 #: source/tmp/win-onboarding/pages/WelcomePage.vue.ts:4
 msgid "Hello!"
@@ -2320,23 +2320,23 @@ msgstr "Olá!"
 
 #: source/tmp/win-onboarding/pages/WelcomePage.vue.ts:5
 msgid ""
-"Thank your for choosing Zettlr as your new one-stop publication workbench."
+"Thank your for choosing Noia as your new one-stop publication workbench."
 msgstr ""
-"Obrigado por escolher o Zettlr como sua nova plataforma completa para "
+"Obrigado por escolher o Noia como sua nova plataforma completa para "
 "publicações."
 
 #: source/tmp/win-onboarding/pages/WelcomePage.vue.ts:6
 msgid ""
-"Before we get started, let us first make sure Zettlr looks and feels as you "
+"Before we get started, let us first make sure Noia looks and feels as you "
 "expect it to."
 msgstr ""
-"Antes de começarmos, vamos garantir que o Zettlr pareça e sinta da forma que "
+"Antes de começarmos, vamos garantir que o Noia pareça e sinta da forma que "
 "você deseja."
 
 #: source/tmp/win-onboarding/pages/WelcomePage.vue.ts:7
 msgid ""
 "On the following pages, we guide you through adjusting a set of vital "
-"settings for a great writing experience. Zettlr ships with sensible "
+"settings for a great writing experience. Noia ships with sensible "
 "defaults, so you may skip this wizard at any time, and adjust your settings "
 "later on."
 msgstr ""
@@ -2351,9 +2351,9 @@ msgstr "Aparência e Sensação"
 
 #: source/tmp/win-onboarding/pages/LookAndFeelPage.vue.ts:9
 msgid ""
-"Zettlr supports both light and dark mode. You can turn it on manually here."
+"Noia supports both light and dark mode. You can turn it on manually here."
 msgstr ""
-"O Zettlr oferece suporte tanto ao modo claro quanto ao modo escuro. Você "
+"O Noia oferece suporte tanto ao modo claro quanto ao modo escuro. Você "
 "pode ativá-lo manualmente aqui."
 
 #: source/tmp/win-onboarding/pages/LookAndFeelPage.vue.ts:10
@@ -2361,13 +2361,13 @@ msgid "Activate dark mode"
 msgstr "Ativar modo escuro"
 
 #: source/tmp/win-onboarding/pages/LookAndFeelPage.vue.ts:11
-msgid "Do you wish to let Zettlr automatically switch to dark mode?"
-msgstr "Você deseja que o Zettlr altere para o modo escuro automaticamente?"
+msgid "Do you wish to let Noia automatically switch to dark mode?"
+msgstr "Você deseja que o Noia altere para o modo escuro automaticamente?"
 
 #: source/tmp/win-onboarding/pages/LookAndFeelPage.vue.ts:18
 #, javascript-format
 msgid ""
-"Zettlr will turn on dark mode between %s and %s. You can adjust these times "
+"Noia will turn on dark mode between %s and %s. You can adjust these times "
 "in the settings."
 msgstr ""
 
@@ -2390,10 +2390,10 @@ msgstr "Escrever Markdown"
 
 #: source/tmp/win-onboarding/pages/WritingMarkdownPage.vue.ts:6
 msgid ""
-"The core of Zettlr is writing Markdown, which can be shown using either its "
+"The core of Noia is writing Markdown, which can be shown using either its "
 "raw syntax, or in a WYSIWYG mode. Which one do you prefer?"
 msgstr ""
-"A fundação do Zettlr é escrever Markdown, que pode ser mostrado em síntaxe "
+"A fundação do Noia é escrever Markdown, que pode ser mostrado em síntaxe "
 "pura ou em modo WYSIWYG. Qual você prefere?"
 
 #: source/tmp/win-onboarding/pages/WritingMarkdownPage.vue.ts:7
@@ -2422,11 +2422,11 @@ msgstr "Mantenha-se Atualizado"
 
 #: source/tmp/win-onboarding/pages/UpdatingPage.vue.ts:7
 msgid ""
-"Zettlr will from time to time check for updates. If you installed Zettlr via "
+"Noia will from time to time check for updates. If you installed Noia via "
 "a package manager (e.g., APT or Pacman, Homebrew, or winget or chocolatey), "
 "you should turn this off."
 msgstr ""
-"Zettlr irá buscar por atualizações periodicamente. Se você instalou Zetllr "
+"Noia irá buscar por atualizações periodicamente. Se você instalou Zetllr "
 "por um gerenciador de pacotes (ex: APT, Pacman, Homebrew, winget ou "
 "chocolatey), você deve desativar esta opção."
 
@@ -2466,10 +2466,10 @@ msgstr "Definir %s como um dicionário de verificação ortográfica"
 
 #: source/tmp/win-onboarding/pages/WritingCheckPage.vue.ts:13
 msgid ""
-"Zettlr integrates with LanguageTool, a free grammar and spellchecker. You "
+"Noia integrates with LanguageTool, a free grammar and spellchecker. You "
 "can turn it on with simple defaults."
 msgstr ""
-"O Zettlr integra-se ao LanguageTool, um verificador gramatical e ortográfico "
+"O Noia integra-se ao LanguageTool, um verificador gramatical e ortográfico "
 "gratuito. Você pode ativá-lo com predefinições simples."
 
 #: source/tmp/win-onboarding/pages/WritingCheckPage.vue.ts:14
@@ -2485,24 +2485,24 @@ msgstr ""
 "do LanguageTool mais tarde, nas configurações."
 
 #: source/tmp/win-onboarding/pages/OtherFilesPage.vue.ts:8
-msgid "Images and PDFs in Zettlr"
-msgstr "Imagens e PDFs em Zettlr"
+msgid "Images and PDFs in Noia"
+msgstr "Imagens e PDFs em Noia"
 
 #: source/tmp/win-onboarding/pages/OtherFilesPage.vue.ts:9
 msgid ""
-"Zettlr can preview images and PDF files directly in Zettlr. This allows you "
+"Noia can preview images and PDF files directly in Noia. This allows you "
 "to reference plots or literature directly while writing. If you do not "
 "activate this, images and PDF files will only be shown in the sidebar and "
 "open with your computer's default viewer."
 msgstr ""
-"O Zettlr pode pré-visualizar imagens e arquivos PDF diretamente no "
+"O Noia pode pré-visualizar imagens e arquivos PDF diretamente no "
 "aplicativo. Isso permite que você consulte gráficos ou literatura enquanto "
 "escreve. Se não ativar esta opção, imagens e PDFs serão exibidos apenas na "
 "barra lateral e abrirão com o visualizador padrão do seu computador."
 
 #: source/tmp/win-onboarding/pages/OtherFilesPage.vue.ts:10
-msgid "Activate Image and PDF Previews in Zettlr"
-msgstr "Ativar prévia de Imagens e PDF no Zettlr"
+msgid "Activate Image and PDF Previews in Noia"
+msgstr "Ativar prévia de Imagens e PDF no Noia"
 
 #. Just as with the navigation, we have to re-translate the page's strings
 #. once the user toggles the app lang.
@@ -2534,19 +2534,19 @@ msgstr "Está tudo pronto!"
 #: source/tmp/win-onboarding/pages/FinishPage.vue.ts:6
 msgid ""
 "We wish you a great writing experience! Remember to take a look at the "
-"preferences to tweak Zettlr even more."
+"preferences to tweak Noia even more."
 msgstr ""
 "Desejamos a você uma ótima experiência de escrita! Lembre-se de dar uma "
-"olhada nas preferências para personalizar ainda mais o Zettlr."
+"olhada nas preferências para personalizar ainda mais o Noia."
 
 #: source/tmp/win-onboarding/pages/FinishPage.vue.ts:7
 msgid ""
 "If anything comes up, and you need help, encounter a bug, or have an idea "
-"for a new feature, please get in touch with us. Zettlr is maintained by a "
+"for a new feature, please get in touch with us. Noia is maintained by a "
 "global community of excellent volunteers who will help you out."
 msgstr ""
 "Se surgir alguma dúvida, se precisar de ajuda, se encontrar um bug ou se "
-"tiver alguma sugestão de novo recurso, entre em contato conosco. O Zettlr é "
+"tiver alguma sugestão de novo recurso, entre em contato conosco. O Noia é "
 "mantido por uma comunidade global de excelentes voluntários que estarão à "
 "sua disposição para ajudar."
 
@@ -2566,8 +2566,8 @@ msgstr "Veja o código-fonte no GitHub"
 #: source/app/service-providers/menu/menu.win32.ts:627
 #: source/app/service-providers/menu/menu.darwin.ts:65
 #: source/app/service-providers/menu/menu.darwin.ts:651
-msgid "About Zettlr"
-msgstr "Sobre o Zettlr"
+msgid "About Noia"
+msgstr "Sobre o Noia"
 
 #: source/tmp/win-about/App.vue.ts:41
 msgid "Other projects"
@@ -2583,48 +2583,48 @@ msgstr "Licença"
 
 #: source/tmp/win-about/General-Tab.vue.ts:21
 msgid ""
-"Zettlr is a project by Hendrik Erz, licensed under the GNU GPL v3 license. "
+"Noia is a project by Hendrik Erz, licensed under the GNU GPL v3 license. "
 "It is Open Source, free of charge and based upon the Electron framework. "
-"Zettlr would like to thank the developers of Electron, the Node.js framework "
-"and the CodeMirror editor for their work. Without them, Zettlr would not be "
-"possible. Below you can find all projects that Zettlr uses."
+"Noia would like to thank the developers of Electron, the Node.js framework "
+"and the CodeMirror editor for their work. Without them, Noia would not be "
+"possible. Below you can find all projects that Noia uses."
 msgstr ""
-"Zettlr é um projeto criado por Hendrik Erz, licenciado sobre a licença GNU "
+"Noia é um projeto criado por Hendrik Erz, licenciado sobre a licença GNU "
 "GPL v3. Ele Open Source, gratuito e baseado no framework Electron. O projeto "
-"Zettlr agradece aos desenvolvedores do Electron, do framework Node.js e do "
-"editor CodeMirror pelo seu trabalho. Sem eles, o Zettlr não seria possível. "
-"Abaixo você pode conferir todos os projetos da qual o Zettlr faz uso."
+"Noia agradece aos desenvolvedores do Electron, do framework Node.js e do "
+"editor CodeMirror pelo seu trabalho. Sem eles, o Noia não seria possível. "
+"Abaixo você pode conferir todos os projetos da qual o Noia faz uso."
 
 #: source/tmp/win-about/General-Tab.vue.ts:22
 msgid ""
-"Zettlr makes use of citeproc to display citations directly in the editor. To "
-"this end, Zettlr uses the CitationStyleLanguage (CSL) language and style "
+"Noia makes use of citeproc to display citations directly in the editor. To "
+"this end, Noia uses the CitationStyleLanguage (CSL) language and style "
 "files. The files have been shipped unaltered with author metadata. More "
 "information:"
 msgstr ""
-"Zettlr faz o uso do citeproc pra mostrar citações diretamente pelo editor. "
-"Para este fim, Zettlr usa o CitationStyleLanguage (CSL) e estiliza os "
+"Noia faz o uso do citeproc pra mostrar citações diretamente pelo editor. "
+"Para este fim, Noia usa o CitationStyleLanguage (CSL) e estiliza os "
 "arquivos. Os arquivos foram enviados inalterados com os metadados do autor, "
 "Mais informações:"
 
 #: source/tmp/win-about/General-Tab.vue.ts:23
 msgid ""
 "All logos and brand names are subject to their rightful owners. Besides "
-"using their code, Zettlr is in no way affiliated with any of these projects. "
+"using their code, Noia is in no way affiliated with any of these projects. "
 "Node.js is a trademark of Joyent, Inc."
 msgstr ""
 "Todos os logotipos e marcas estão sujeitos a seus proprietários. Exceto usar "
-"seu código, o Zettlr não é afiliado a nenhum desses projetos. Node.js é uma "
+"seu código, o Noia não é afiliado a nenhum desses projetos. Node.js é uma "
 "marca comercial da Joyent, Inc."
 
 #: source/tmp/win-about/General-Tab.vue.ts:24
 msgid ""
-"Zettlr offers an integration with LanguageTool.org, a service provided by "
+"Noia offers an integration with LanguageTool.org, a service provided by "
 "LanguageTooler GmbH. Using this service requires an internet connection and "
 "is subject to the privacy policy of LanguageTooler GmbH or the corresponding "
 "server that you use."
 msgstr ""
-"Zettlr oferece uma integração com LanguageTool.org, um serviço fornecido "
+"Noia oferece uma integração com LanguageTool.org, um serviço fornecido "
 "porLanguageTooler GmbH. Usar este serviço requer uma conexão com a internet "
 "e está sujeito à política de privacidade da LanguageTooler GmbH ou o "
 "servidor correspondente que você utiliza."
@@ -2634,8 +2634,8 @@ msgid "View the Privacy Policy by LanguageTooler GmbH"
 msgstr ""
 
 #: source/tmp/win-about/Projects-Tab.vue.ts:19
-msgid "Zettlr also makes use of these projects:"
-msgstr "Zettlr também faz uso desses outros projetos:"
+msgid "Noia also makes use of these projects:"
+msgstr "Noia também faz uso desses outros projetos:"
 
 #: source/tmp/win-error/App.vue.ts:43
 #: source/app/service-providers/commands/dir-delete.ts:36
@@ -3141,10 +3141,10 @@ msgstr "O anexo não pode ser aberto. O Zotero está aberto?"
 
 #: source/app/service-providers/commands/importer/index.ts:86
 msgid ""
-"Zettlr can import this file, but it requires an import profile. Please "
+"Noia can import this file, but it requires an import profile. Please "
 "create one first."
 msgstr ""
-"O Zettlr pode importar esse arquivo, mas é necessário um perfil de "
+"O Noia pode importar esse arquivo, mas é necessário um perfil de "
 "importação. Por favor, crie um primeiro."
 
 #: source/app/service-providers/commands/importer/index.ts:97
@@ -3780,8 +3780,8 @@ msgstr "Nova janela"
 
 #: source/app/service-providers/menu/menu.win32.ts:638
 #: source/app/service-providers/menu/menu.darwin.ts:662
-msgid "Support Zettlr ↗︎"
-msgstr "Apoie Zettlr"
+msgid "Support Noia ↗︎"
+msgstr "Apoie Noia"
 
 #: source/app/service-providers/menu/menu.win32.ts:648
 #: source/app/service-providers/menu/menu.darwin.ts:672
@@ -3816,7 +3816,7 @@ msgstr "Limpar o cache FSAL precisa que reinicie o programa."
 #: source/app/service-providers/menu/menu.win32.ts:686
 #: source/app/service-providers/menu/menu.darwin.ts:710
 msgid ""
-"After the restart, Zettlr will recreate the entire cache, which may take a "
+"After the restart, Noia will recreate the entire cache, which may take a "
 "few moments, depending on the amount of files you have loaded and the speed "
 "of your disk. The window(s) will show afterward."
 msgstr ""
@@ -3886,12 +3886,12 @@ msgid "Indexing complete."
 msgstr ""
 
 #: source/app/service-providers/tray/index.ts:166
-msgid "Show Zettlr"
-msgstr "Mostrar Zettlr"
+msgid "Show Noia"
+msgstr "Mostrar Noia"
 
 #: source/app/service-providers/tray/index.ts:179
-msgid "Zettlr"
-msgstr "Zettlr"
+msgid "Noia"
+msgstr "Noia"
 
 #: source/pinia/workspace-store.ts:267
 msgid "Current folder"
@@ -3940,10 +3940,10 @@ msgstr "Exibição do nome de documento Markdown"
 
 #: source/win-preferences/schema/file-manager.ts:57
 msgid ""
-"Determines how Zettlr will display files in various places such as the file "
+"Determines how Noia will display files in various places such as the file "
 "manager."
 msgstr ""
-"Exibição do nome do documento MarkdownDetermina como o Zettlr exibirá os "
+"Exibição do nome do documento MarkdownDetermina como o Noia exibirá os "
 "arquivos em diversos locais, como o gerenciador de arquivos."
 
 #: source/win-preferences/schema/file-manager.ts:65
@@ -3978,10 +3978,10 @@ msgstr "Exibição e ordenação por hora"
 
 #: source/win-preferences/schema/file-manager.ts:83
 msgid ""
-"Determine which timestamp Zettlr shows for files. This also affects sorting "
+"Determine which timestamp Noia shows for files. This also affects sorting "
 "by time."
 msgstr ""
-"Determine qual data e hora o Zettlr exibe para os arquivos. Isso também "
+"Determine qual data e hora o Noia exibe para os arquivos. Isso também "
 "afeta a ordenação por data e hora."
 
 #: source/win-preferences/schema/file-manager.ts:91
@@ -3997,9 +3997,9 @@ msgid "Filename sorting"
 msgstr "Ordenação por nome de arquivo"
 
 #: source/win-preferences/schema/file-manager.ts:99
-msgid "Determines how Zettlr sorts files and folders when sorting by name."
+msgid "Determines how Noia sorts files and folders when sorting by name."
 msgstr ""
-"Determina como o Zettlr ordena arquivos e pastas ao classificar por nome."
+"Determina como o Noia ordena arquivos e pastas ao classificar por nome."
 
 #: source/win-preferences/schema/file-manager.ts:105
 msgid "When sorting documents…"
@@ -4018,8 +4018,8 @@ msgid "Workspace sorting"
 msgstr "Classificação do espaço de trabalho"
 
 #: source/win-preferences/schema/file-manager.ts:116
-msgid "Zettlr automatically sorts your workspaces by name."
-msgstr "Zettlr automaticamente classifica seus espaços de trabalho por nome."
+msgid "Noia automatically sorts your workspaces by name."
+msgstr "Noia automaticamente classifica seus espaços de trabalho por nome."
 
 #: source/win-preferences/schema/file-manager.ts:122
 msgid "Sort workspaces manually"
@@ -4108,10 +4108,10 @@ msgstr "Citações mágicas"
 
 #: source/win-preferences/schema/autocorrect.ts:60
 msgid ""
-"This setting allows you to pick which typographical quotes Zettlr will "
+"This setting allows you to pick which typographical quotes Noia will "
 "insert when you insert a quotation mark. Requires Autocorrect to be enabled."
 msgstr ""
-"Esta configuração permite que você escolha quais aspas tipográficas o Zettlr "
+"Esta configuração permite que você escolha quais aspas tipográficas o Noia "
 "irá inserir quando você digitar uma aspa. É necessário que a função de "
 "correção automática esteja ativada."
 
@@ -4146,8 +4146,8 @@ msgstr "Exportar configurações"
 
 #. TODO: Must be radio; second option "Use system-wide Pandoc for exports"
 #: source/win-preferences/schema/import-export.ts:65
-msgid "Use Zettlr's internal Pandoc for exports"
-msgstr "Use o Pandoc integrado do Zettlr para exportações"
+msgid "Use Noia's internal Pandoc for exports"
+msgstr "Use o Pandoc integrado do Noia para exportações"
 
 #: source/win-preferences/schema/import-export.ts:70
 msgid "Automatically open successfully exported files"
@@ -4159,10 +4159,10 @@ msgstr "Aplicar extensão de destaque na exportação"
 
 #: source/win-preferences/schema/import-export.ts:76
 msgid ""
-"When enabled, Zettlr will automatically enable the \"mark\"-extension when "
+"When enabled, Noia will automatically enable the \"mark\"-extension when "
 "exporting Markdown files."
 msgstr ""
-"Quando habilitado, Zettlr automaticamente permitirá a extensão \"mark\" "
+"Quando habilitado, Noia automaticamente permitirá a extensão \"mark\" "
 "quando exportar arquivos Markdown."
 
 #: source/win-preferences/schema/import-export.ts:82
@@ -4405,9 +4405,9 @@ msgstr "Caracteres de formatação padrão"
 
 #: source/win-preferences/schema/editor.ts:147
 msgid ""
-"Select the characters Zettlr should use when marking text as bold or italic."
+"Select the characters Noia should use when marking text as bold or italic."
 msgstr ""
-"Selecione os caracteres que o Zettlr deve usar ao colocar o texto em negrito "
+"Selecione os caracteres que o Noia deve usar ao colocar o texto em negrito "
 "ou itálico."
 
 #: source/win-preferences/schema/editor.ts:183
@@ -4536,10 +4536,10 @@ msgstr "Sempre indentar a linha atual ao pressionar Tab"
 
 #: source/win-preferences/schema/editor.ts:330
 msgid ""
-"Zettlr always indents the line for list items. Turn this setting on to "
+"Noia always indents the line for list items. Turn this setting on to "
 "always indent any line."
 msgstr ""
-"O Zettlr sempre recua a linha dos itens da lista. Ative esta configuração "
+"O Noia sempre recua a linha dos itens da lista. Ative esta configuração "
 "para recuar sempre qualquer linha."
 
 #: source/win-preferences/schema/editor.ts:336
@@ -4749,10 +4749,10 @@ msgstr "Padrão para nome de novos arquivos"
 
 #: source/win-preferences/schema/advanced.ts:46
 msgid ""
-"Zettlr uses this pattern to generate new filenames. By default, it just uses "
+"Noia uses this pattern to generate new filenames. By default, it just uses "
 "a new Zettelkasten ID."
 msgstr ""
-"Zettlr utiliza esse padrão para gerar novos nomes de arquivos. Por "
+"Noia utiliza esse padrão para gerar novos nomes de arquivos. Por "
 "predefinição, utiliza apenas um novo Zettelkasten ID."
 
 #: source/win-preferences/schema/advanced.ts:53
@@ -4897,11 +4897,11 @@ msgstr "Pesquisa de opinião pública"
 
 #: source/win-preferences/schema/advanced.ts:311
 msgid ""
-"In rare instances, Zettlr may be unable to check for changes to your files. "
+"In rare instances, Noia may be unable to check for changes to your files. "
 "In that case, you can try activating watchdog polling. Do not use this "
 "option unless necessary: Polling is very slow and resource-heavy."
 msgstr ""
-"Em casos raros, o Zettlr poderá não conseguir verificar se houve alterações "
+"Em casos raros, o Noia poderá não conseguir verificar se houve alterações "
 "nos seus ficheiros. Nesse caso, pode tentar ativar a verificação contínua. "
 "Não utilize esta opção a menos que seja necessário: a verificação contínua é "
 "muito lenta e consome muitos recursos."
@@ -4938,11 +4938,11 @@ msgstr "Zettelkasten IDs"
 
 #: source/win-preferences/schema/zettelkasten.ts:24
 msgid ""
-"Specify how Zettlr generates new file IDs for your Zettelkasten, and enable "
-"Zettlr to detect them."
+"Specify how Noia generates new file IDs for your Zettelkasten, and enable "
+"Noia to detect them."
 msgstr ""
-"Especifique como o Zettlr gera novos IDs de arquivo para o seu Zettelkasten "
-"e habilite o Zettlr para detectá-los."
+"Especifique como o Noia gera novos IDs de arquivo para o seu Zettelkasten "
+"e habilite o Noia para detectá-los."
 
 #: source/win-preferences/schema/zettelkasten.ts:30
 msgid "Pattern for generating new IDs"
@@ -5006,13 +5006,13 @@ msgstr "Pasta Zettelkasten"
 
 #: source/win-preferences/schema/zettelkasten.ts:92
 msgid ""
-"Choosing a Zettelkasten folder allows Zettlr to automatically create files "
+"Choosing a Zettelkasten folder allows Noia to automatically create files "
 "when following links to not-yet-existing files. This folder must be open as "
-"a Workspace in Zettlr."
+"a Workspace in Noia."
 msgstr ""
-"Ao selecionar uma pasta do Zettelkasten, o Zettlr cria automaticamente "
+"Ao selecionar uma pasta do Zettelkasten, o Noia cria automaticamente "
 "arquivos ao acessar links que ainda não existem. Essa pasta deve estar "
-"aberta como um Espaço de Trabalho no Zettlr."
+"aberta como um Espaço de Trabalho no Noia."
 
 #: source/win-preferences/schema/zettelkasten.ts:98
 msgid "Path to folder"
@@ -5024,9 +5024,9 @@ msgid "Updates"
 msgstr "Atualizações"
 
 #: source/win-preferences/schema/general.ts:22
-msgid "If you installed Zettlr via a package manager, you should disable this."
+msgid "If you installed Noia via a package manager, you should disable this."
 msgstr ""
-"Se você instalou Zettlr por um Gerenciador de Arquivos, você deve desativar "
+"Se você instalou Noia por um Gerenciador de Arquivos, você deve desativar "
 "essa opção."
 
 #: source/win-preferences/schema/general.ts:28
@@ -5035,15 +5035,15 @@ msgstr "Verificar atualizações automaticamente"
 
 #: source/win-preferences/schema/general.ts:37
 msgid ""
-"Updates for this binary of Zettlr have been disabled at build time. This is "
-"a choice made by the packager and is common when Zettlr is being distributed "
-"via package managers. In these cases, Zettlr will be updated through your "
+"Updates for this binary of Noia have been disabled at build time. This is "
+"a choice made by the packager and is common when Noia is being distributed "
+"via package managers. In these cases, Noia will be updated through your "
 "package manager."
 msgstr ""
-"As atualizações para esta versão do Zettlr foram desativadas durante a "
+"As atualizações para esta versão do Noia foram desativadas durante a "
 "compilação. Essa é uma decisão tomada pelo criador do pacote e é comum "
-"quando o Zettlr é distribuído por meio de gerenciadores de pacotes. Nesses "
-"casos, o Zettlr será atualizado através do seu gerenciador de pacotes."
+"quando o Noia é distribuído por meio de gerenciadores de pacotes. Nesses "
+"casos, o Noia será atualizado através do seu gerenciador de pacotes."
 
 #: source/win-preferences/schema/general.ts:43
 msgid "Application language"
@@ -5054,8 +5054,8 @@ msgid "Autosave"
 msgstr "Salvar automaticamente"
 
 #: source/win-preferences/schema/general.ts:55
-msgid "Should Zettlr automatically save changes to your documents?"
-msgstr "Zettlr deve salvar mudanças nos seus documentos automaticamente?"
+msgid "Should Noia automatically save changes to your documents?"
+msgstr "Noia deve salvar mudanças nos seus documentos automaticamente?"
 
 #: source/win-preferences/schema/general.ts:65
 msgid "Never"
@@ -5239,10 +5239,10 @@ msgstr "LanguageTool Premium"
 
 #: source/win-preferences/schema/spellchecking.ts:199
 msgid ""
-"Zettlr will ignore the \"LanguageTool provider\" settings if you enter any "
+"Noia will ignore the \"LanguageTool provider\" settings if you enter any "
 "credentials here."
 msgstr ""
-"O Zettlr ignorará as configurações do \"provedor LanguageTool\" se você "
+"O Noia ignorará as configurações do \"provedor LanguageTool\" se você "
 "inserir quaisquer credenciais aqui."
 
 #: source/win-preferences/schema/spellchecking.ts:203
@@ -5286,10 +5286,10 @@ msgstr "Nenhuma regra ignorada."
 
 #, javascript-format
 #~ msgid ""
-#~ "If you choose \"schedule,\" Zettlr will turn on dark mode between %s and "
+#~ "If you choose \"schedule,\" Noia will turn on dark mode between %s and "
 #~ "%s. You can adjust these times in the settings."
 #~ msgstr ""
-#~ "Se você selecionar \"programar,\" Zettlr irá mudar para o modo escuro "
+#~ "Se você selecionar \"programar,\" Noia irá mudar para o modo escuro "
 #~ "entre %s e %s. Você pode ajustar estes horários nas configurações."
 
 #, javascript-format
@@ -5315,12 +5315,12 @@ msgstr "Nenhuma regra ignorada."
 #~ msgstr "Não foi possível abrir área de trabalho"
 
 #~ msgid ""
-#~ "Here you can override the styles of Zettlr to customise it even further. "
+#~ "Here you can override the styles of Noia to customise it even further. "
 #~ "<strong>Attention: This file overrides all CSS directives! Never alter "
 #~ "the geometry of elements, otherwise the app may expose unwanted behaviour!"
 #~ "</strong>"
 #~ msgstr ""
-#~ "Aqui você pode substituir os estilos do Zettlr para personalizá-lo ainda "
+#~ "Aqui você pode substituir os estilos do Noia para personalizá-lo ainda "
 #~ "mais. <strong> Atenção: Este arquivo substitui todas as diretivas CSS! "
 #~ "Nunca altere a geometria dos elementos, caso contrário, o aplicativo pode "
 #~ "apresentar comportamentos indesejados! </strong>"
@@ -5477,8 +5477,8 @@ msgstr "Nenhuma regra ignorada."
 #~ msgid "Open Logs"
 #~ msgstr "Abrir Logs"
 
-#~ msgid "Support Zettlr"
-#~ msgstr "Apoie o Zettlr"
+#~ msgid "Support Noia"
+#~ msgstr "Apoie o Noia"
 
 #, fuzzy
 #~ msgid "Visit website"
@@ -5596,8 +5596,8 @@ msgstr "Nenhuma regra ignorada."
 #~ msgstr "Não é possível abrir o diretório"
 
 #, javascript-format
-#~ msgid "Directory &quot;%s&quot; cannot be opened by Zettlr."
-#~ msgstr "Pasta &quot;%s&quot; não pode ser aberto pelo Zettlr."
+#~ msgid "Directory &quot;%s&quot; cannot be opened by Noia."
+#~ msgstr "Pasta &quot;%s&quot; não pode ser aberto pelo Noia."
 
 #~ msgid "The requested file was not found."
 #~ msgstr "O arquivo solicitado não foi encontrado."
@@ -5707,10 +5707,10 @@ msgstr "Nenhuma regra ignorada."
 #~ msgstr "Pesquisar por dicionários &hellip;"
 
 #~ msgid ""
-#~ "Put auto-created files into this directory (must be loaded in Zettlr)"
+#~ "Put auto-created files into this directory (must be loaded in Noia)"
 #~ msgstr ""
 #~ "Inserir arquivos criados automaticamente neste diretório (deve ser "
-#~ "carregado no Zettlr)"
+#~ "carregado no Noia)"
 
 #~ msgid ""
 #~ "Target directory for exported files. <em>Attention:</em> Selecting the "
@@ -5769,14 +5769,14 @@ msgstr "Nenhuma regra ignorada."
 
 #~ msgid ""
 #~ "This profile appears to be either missing the writer or reader property. "
-#~ "Make sure to set both so that Zettlr can use this profile."
+#~ "Make sure to set both so that Noia can use this profile."
 #~ msgstr ""
 #~ "Este perfil parece não ter propriedades de leitura e escrita. Certifique-"
-#~ "se de definir ambos para que o Zettlr possa usar esse perfil."
+#~ "se de definir ambos para que o Noia possa usar esse perfil."
 
 #~ msgid "Application language (<strong>Restart required!</strong>)"
 #~ msgstr ""
-#~ "Idioma do programa (<strong>Reinicialização do Zettlr é obrigatória!</"
+#~ "Idioma do programa (<strong>Reinicialização do Noia é obrigatória!</"
 #~ "strong>)"
 
 #~ msgid "Replace with"
