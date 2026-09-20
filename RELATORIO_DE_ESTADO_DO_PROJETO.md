@@ -273,3 +273,21 @@ for (const [type, color] of Object.entries(CALLOUT_COLORS)) {
 const calloutTheme = EditorView.baseTheme(baseStyles)
 export const renderCallouts = [calloutPlugin, calloutTheme]
 ```
+
+### 🟡 SPRINT 4: Rebranding de Metadados, Binários de SO e Refinamento do Glifo
+- **Refinamento do Monograma:** Ajustar a geometria de `logo-noia-glyph.svg` para eliminar o efeito de sobreposição de fita (estilo Netflix), unificando as junções das hastes para consolidar uma estética de estação científica monolítica.
+### 🟡 SPRINT 11: Envelopamento Inteligente de Fenced Code Blocks (Wrap Selection)
+- **Arquivos Alvo:** 
+  - `source/common/modules/markdown-editor/commands/wrap-code-block.ts` (Novo)
+  - `source/common/modules/markdown-editor/editor-extension-sets.ts` (Registro no Keymap)
+  - `source/win-preferences/schema/shortcuts.ts` (Atalho customizável nas Preferências)
+- **Escopo e Mecânica:**
+  1. **Comando `wrapInFencedCodeBlock`:**
+     - Extrair `state.sliceDoc(range.from, range.to)`.
+     - Garantir quebras de linha automáticas antes e depois da seleção caso não existam.
+     - Montar a string: `\n\`\`\`\n${content}\n\`\`\`\n`.
+     - Definir a seleção ativa no offset `${range.from} + 4` para permitir digitação imediata do identificador de linguagem (`yaml`, `python`, `bash`) sem destruir o corpo.
+  2. **Mapeamento de Atalho:**
+     - Atalho padrão de fábrica: `Ctrl-Shift-C` (Windows/Linux) / `Cmd-Shift-C` (macOS).
+     - Integração com o schema de preferências para permitir remapeamento pelo usuário.
+  3. **Proteção Anti-Destruição:** Bloquear substituição destrutiva do autocomplete sobre seleções multilinhas ao digitar crases consecutivas.

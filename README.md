@@ -43,6 +43,50 @@ O **Noia** (representado pela letra grega Ni - **Ν**) é um *hard-fork* do exce
 
 ---
 
+## 🧩 Motor Nativo de Callouts (Estilo Obsidian)
+
+O Noia implementa um motor de renderização de *Admonitions/Callouts* 100% nativo no **CodeMirror 6**, eliminando wrappers HTML instáveis e transferindo a autoridade visual para as linhas do editor.
+
+![Demonstração dos Callouts Nativos no Noia](resources\screenshots\callouts.png)
+
+### 🚀 Destaques Arquiteturais
+- **Imunidade ao LaTeX (KaTeX):** Geometria concêntrica via `box-shadow inset`, garantindo que fórmulas display (`$$`) e blocos de código não quebrem as bordas do card.
+- **Aninhamento Profundo:** Suporte para até 3 níveis de profundidade (`> > [!tipo]`) com cálculo matemático de recuo e herança canônica de estado.
+- **UX de Edição Fluida:** Ocultação visual dos marcadores Markdown (`> `) no repouso, com revelação imediata apenas na linha sob o cursor (`.cm-activeLine`).
+- **Scrollbars Customizadas:** Contenção de overflow vertical fantasma no WebKit e barras horizontais translúcidas dedicadas para conteúdos largos.
+
+### 🎨 Tipos e Aliases Suportados
+Inicie o bloco com `> [!tipo]`. O motor mapeia nativamente 15 tipos com paleta neon e glifos SVG:
+
+| Tipo Base | Cor | Aliases Suportados |
+| :--- | :--- | :--- |
+| `[!note]` | Azul | `note` |
+| `[!info]` | Azul Claro | `info` |
+| `[!tip]` | Verde Claro | `tip`, `hint`, `important` |
+| `[!idea]` | Amarelo Neon | `idea`, `ide` |
+| `[!success]` | Verde | `success`, `check`, `done` |
+| `[!question]` | Roxo | `question`, `help`, `faq` |
+| `[!warning]` | Amarelo | `warning`, `caution`, `attention` |
+| `[!failure]` | Vermelho Claro | `failure`, `fail`, `missing` |
+| `[!danger]` | Vermelho Forte | `danger` |
+| `[!bug]` | Rosa/Carmim | `bug`, `error` |
+| `[!example]` | Laranja | `example`, `snippet` |
+| `[!quote]` | Cinza | `quote` |
+| `[!cite]` | Cinza | `cite`, `reference` |
+| `[!abstract]` | Ciano | `abstract`, `summary`, `tldr` |
+| `[!todo]` | Azul | `todo`, `task` |
+
+---
+
+### 📋 Product Backlog (Próximas Sprints)
+- [ ] **Sprint 2.2 (Pendente): Interatividade de Dobra (Interactive Folding)**  
+  Implementar o colapso dinâmico via chevron para modificadores `[+-]`.  
+  *Débito Técnico Mapeado:* Corrigir o cálculo do range em `foldService` para desdobramento de blocos densos sem exigir linha vazia (`>`) entre cabeçalho e corpo.
+- [ ] **Sprint 3:** Desbloqueio de Notas Longas (LanguageTool Chunking via buffer de 15.000 caracteres).
+- [ ] **Sprint 4:** Rebranding de Metadados e Binários de SO (compilação de ícones nativos e isolamento de `appId`).
+
+---
+
 ## 🛠️ Compilando a Partir do Código Fonte
 
 O Noia é um aplicativo baseado em [Electron](https://www.electronjs.org/). Para começar a desenvolver, você precisará de:
