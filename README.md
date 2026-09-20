@@ -47,7 +47,7 @@ O **Noia** (representado pela letra grega Ni - **Ν**) é um *hard-fork* do exce
 
 O Noia implementa um motor de renderização de *Admonitions/Callouts* 100% nativo no **CodeMirror 6**, eliminando wrappers HTML instáveis e transferindo a autoridade visual para as linhas do editor.
 
-![Demonstração dos Callouts Nativos no Noia](resources\screenshots\callouts.png)
+![Demonstração dos Callouts Nativos no Noia](resources/screenshots/callouts.png)
 
 ### 🚀 Destaques Arquiteturais
 - **Imunidade ao LaTeX (KaTeX):** Geometria concêntrica via `box-shadow inset`, garantindo que fórmulas display (`$$`) e blocos de código não quebrem as bordas do card.
